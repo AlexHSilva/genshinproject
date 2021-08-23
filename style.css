@@ -22,10 +22,6 @@ header {
     padding: 20rem 0 0 0;
 }
 
-h1 {
-    color: white;
-}
-
 /* Main ================================= */
 
 #menu a {
@@ -36,6 +32,7 @@ h1 {
     font-weight: 800;
     font-size: 24px;
     cursor: pointer;
+    overflow-x: auto;
 }
 
 #menu a:hover {
@@ -55,15 +52,14 @@ h1 {
     display: grid;
     grid-template-columns: repeat(auto-fill, 530px);
     text-align: center;
-    margin-left: 5rem;
-    /* border: 2px solid yellow; */
+    border: 2px solid yellow;
 }
 
 .card {
     background: black;
     padding: 0.5rem;
     border-radius: 0.30rem;
-    margin: 1rem 7rem;
+    margin: 1rem 12rem;
     border: 1px solid white;
     width: 300px;
     color: white;
