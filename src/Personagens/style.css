@@ -13,18 +13,13 @@ body {
 }
 
 .container {
-    width: min(90vw, 2000px);
-    margin: auto;
+    margin: 0 5rem;
 }
 
 /* Header =============================== */
 
 header {   
     padding: 20rem 0 0 0;
-}
-
-h1 {
-    color: white;
 }
 
 /* Main ================================= */
@@ -36,6 +31,8 @@ h1 {
     opacity: 0.8;
     font-weight: 800;
     font-size: 24px;
+    cursor: pointer;
+    overflow-x: auto;
 }
 
 #menu a:hover {
@@ -55,10 +52,10 @@ h1 {
 
 #table {
     margin: 1rem 4rem;
+    overflow-x: auto;
 }
 
 .tabela {
-    margin: 1rem;
     background: white;
     width: 100%;
 }
@@ -83,4 +80,35 @@ footer {
     color: white;
     padding: 1rem;
     text-align: center;
+}
+
+/* Responsive ============================ */
+
+@media (max-width: 800px) {
+
+    .container {
+        margin: 0.2rem;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    #menu a {
+        font-size: 10px;
+    }
+
+    #table {
+        margin: 1rem 0;
+        overflow-x: auto;
+    }
+
+    th {
+        font-size: 10px;
+        padding: 0.2rem;
+    }
+
+    td {
+        font-size: 10px;
+    }
 }
