@@ -87,6 +87,10 @@ footer {
         margin: 0.2rem;
     }
 
+    header {
+        padding: 2rem 0 0 0;
+    }
+
     #menu a {
         font-size: 10px;
     }
